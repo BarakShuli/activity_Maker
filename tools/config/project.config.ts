@@ -22,13 +22,14 @@ export class ProjectConfig extends SeedConfig {
     // Add `NPM` third-party libraries to be injected/bundled.
     this.NPM_DEPENDENCIES = [
       ...this.NPM_DEPENDENCIES,
-      // {src: 'jquery/dist/jquery.min.js', inject: 'libs'},
+       {src: 'jquery/dist/jquery.min.js', inject: 'libs'},
+       //{src: 'jquery-ui/ui/widget.js', inject: 'libs'},
       // {src: 'lodash/lodash.min.js', inject: 'libs'},
     ];
 
     // Add `local` third-party libraries to be injected/bundled.
     this.APP_ASSETS = [
-      // {src: `${this.APP_SRC}/your-path-to-lib/libs/jquery-ui.js`, inject: true, vendor: false}
+       {src: `${this.APP_SRC}/js/jQueryUI-1.12.min.js`, inject: true, vendor: false}
       // {src: `${this.CSS_SRC}/path-to-lib/test-lib.css`, inject: true, vendor: false},
     ];
 

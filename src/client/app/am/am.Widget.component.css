@@ -1,0 +1,126 @@
+.ui-icon, .ui-widget-content .ui-icon {
+    background-image: url(../../assets/ui-icons_256x240.png);
+}
+
+.ui-icon-gripsmall-diagonal-se {
+    background-position: -64px -224px;
+}
+
+.ui-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.ui-resizable {
+	position: relative;
+}
+.ui-resizable-handle {
+	position: absolute;
+	font-size: 0.1px;
+	display: block;
+	-ms-touch-action: none;
+	touch-action: none;
+}
+.ui-resizable-disabled .ui-resizable-handle,
+.ui-resizable-autohide .ui-resizable-handle {
+	display: none;
+}
+.ui-resizable-n {
+	cursor: n-resize;
+	height: 7px;
+	width: 100%;
+	top: -5px;
+	left: 0;
+}
+.ui-resizable-s {
+	cursor: s-resize;
+	height: 7px;
+	width: 100%;
+	bottom: -5px;
+	left: 0;
+}
+.ui-resizable-e {
+	cursor: e-resize;
+	width: 7px;
+	right: -5px;
+	top: 0;
+	height: 100%;
+}
+.ui-resizable-w {
+	cursor: w-resize;
+	width: 7px;
+	left: -5px;
+	top: 0;
+	height: 100%;
+}
+.ui-resizable-se {
+	cursor: se-resize;
+	width: 13px;
+	height: 13px;
+	right: 4px;
+	bottom: 4px;
+}
+.ui-resizable-sw {
+	cursor: sw-resize;
+	width: 9px;
+	height: 9px;
+	left: -5px;
+	bottom: -5px;
+}
+.ui-resizable-nw {
+	cursor: nw-resize;
+	width: 9px;
+	height: 9px;
+	left: -5px;
+	top: -5px;
+}
+.ui-resizable-ne {
+	cursor: ne-resize;
+	width: 9px;
+	height: 9px;
+	right: -5px;
+	top: -5px;
+}
+
+.widgetBoxMenu{border:solid 1px #808080;width:100px;height:25px;position:absolute;top:-25px;right:0px;
+				border-radius: 5px;background-color: #fff;opacity: 0.7;display:none;}
+
+.closeIcon{
+	color: #000;
+  	font: 17px/100% arial, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	float:right;
+	margin:5px 5px 0;
+}
+
+.closeIcon:hover{color:#437983;}
+
+.closeIcon:after {
+  content: 'X';
+}
+
+.checkmark:hover{
+ 
+  border: solid #437983;
+  border-width: 0 0.2em 0.2em 0;
+}
+
+.checkmark {
+  content: " ";
+  display: block;
+  width: 0.5em; 
+  height: 0.9em;
+  border: solid #000;
+  border-width: 0 0.2em 0.2em 0; 
+  float:right;
+  -webkit-transform: rotate(45deg); 
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin:3px 10px 0;
+}
+
+.activeBox{
+	border:solid 5px red;
+}

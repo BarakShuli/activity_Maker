@@ -1,0 +1,9 @@
+<div [id]="indexId"  class='widgetItem ui-widget-content draggable' (click)="setSelectedWidget($event)"
+  [ngStyle]="{'position':'absolute', 'top': widgetStyleObjectTop, 'left': widgetStyleObjectLeft, 'width': widgetStyleObjectWidth, 'height': widgetStyleObjectHeight, 'background-color': 'rgba(20, 93, 209, 0.5)'}">
+  <div [innerHtml]="indexId"></div>
+  <div class="widgetBoxMenu">
+    <a href="javascript:void(0)" class="closeIcon" (click)="removeSelectedComponent();"></a>
+    <a href="javascript:void(0)" class="checkmark"></a>
+  </div>
+
+</div>

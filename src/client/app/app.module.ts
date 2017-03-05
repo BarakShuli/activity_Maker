@@ -7,10 +7,11 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AboutModule } from './about/about.module';
 import { HomeModule } from './home/home.module';
+import { AmModule } from './am/am.module';
 import { SharedModule } from './shared/shared.module';
 
 @NgModule({
-  imports: [BrowserModule, HttpModule, AppRoutingModule, AboutModule, HomeModule, SharedModule.forRoot()],
+  imports: [BrowserModule, HttpModule, AppRoutingModule, AboutModule, HomeModule,AmModule , SharedModule.forRoot()],
   declarations: [AppComponent],
   providers: [{
     provide: APP_BASE_HREF,
